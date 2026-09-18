@@ -1,0 +1,38 @@
+hl.curve("myBezier", { type = "bezier", points = { { 0.2, 0.9 }, { 0.5, 1.0 } } })
+
+hl.animation({
+	leaf = "workspaces",
+	enabled = true,
+	speed = 3,
+	bezier = "myBezier",
+	style = "slide",
+})
+
+hl.config({
+	general = {
+		border_size = 3,
+		gaps_in = 6,
+		gaps_out = 12,
+	},
+	decoration = {
+		active_opacity = 1.0,
+		inactive_opacity = 0.9,
+		rounding = 12,
+		rounding_power = 2,
+		blur = {
+			enabled = true,
+			size = 3,
+			passes = 4,
+			noise = 0.06,
+			brightness = 0.45,
+			vibrancy = 0.2,
+			vibrancy_darkness = 0.8,
+		},
+		shadow = {
+			enabled = true,
+			scale = 2.0,
+			range = 24,
+			render_power = 4,
+		},
+	},
+})
