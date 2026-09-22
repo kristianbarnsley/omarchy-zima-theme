@@ -10,17 +10,21 @@ hl.animation({
 
 hl.config({
 	general = {
-		border_size = 3,
-		gaps_in = 6,
-		gaps_out = 12,
+		border_size = 2,
+		gaps_in = 4,
+		gaps_out = 8,
+		col = {
+			active_border = "rgba(72,206,241,1)",
+			inactive_border = "rgba(595999aa)",
+		},
 	},
 	decoration = {
 		active_opacity = 1.0,
 		inactive_opacity = 0.9,
-		rounding = 12,
+		rounding = 6,
 		rounding_power = 2,
 		blur = {
-			enabled = true,
+			enabled = false,
 			size = 3,
 			passes = 4,
 			noise = 0.06,
