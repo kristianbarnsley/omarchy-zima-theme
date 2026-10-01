@@ -1,6 +1,8 @@
 # Omarchy Zima Blue Theme 
 An Omarchy theme based on the Zima Blue episode of Love, Death & Robots anthology
 
+![Omarchy Zima Theme preview](preview.png)
+
 ## Install
 
 ```bash
